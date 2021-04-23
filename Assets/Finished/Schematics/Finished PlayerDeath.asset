@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -137269416, guid: 7aed481bc8d8bee448bf2ae245d7762c, type: 3}
+  m_Name: Finished PlayerDeath
+  m_EditorClassIdentifier: 
+  time: 8/8/2017 10:28:37 AM
+  version: 1.9.0
+  data:
+    name: schematic
+    xmlData: "<schematic maxNodes=\"100\" startIndex=\"0\" stopIndex=\"-1\" endIndex=\"-1\"
+      nodeLayer=\"0\" >\n\t<_bool limitNodes=\"False\" blockPlayer=\"False\" blockCamera=\"False\"
+      clearBlocks=\"False\" mainCamera=\"True\" cameraTag=\"False\" clearActors=\"True\"
+      clearPrefabs=\"True\" clearVariables=\"False\" clearSelectedData=\"False\" useUnityTimeScale=\"True\"
+      useMakinomTimeScale=\"True\" initVarsEachRun=\"False\" destroyPrefabs=\"False\"
+      useEndSlots=\"False\" overrideNodeName=\"False\" />\n\t<_floatarrays>\n\t\t<nodePosition
+      38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_stringarrays>\n\t\t<layer>\n\t\t\t<0><![CDATA[Base
+      Layer]]></0>\n\t\t</layer>\n\t</_stringarrays>\n\t<initialVariables>\n\t\t<_subarrays>\n\t\t\t<variable>\n\t\t\t</variable>\n\t\t</_subarrays>\n\t</initialVariables>\n\t<_subarrays>\n\t\t<machineStartVariable>\n\t\t</machineStartVariable>\n\t\t<actor>\n\t\t</actor>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<audioMixer>\n\t\t</audioMixer>\n\t\t<audioMixerGroup>\n\t\t</audioMixerGroup>\n\t\t<sprite>\n\t\t</sprite>\n\t\t<texture>\n\t\t</texture>\n\t\t<material>\n\t\t</material>\n\t\t<physicMaterial>\n\t\t</physicMaterial>\n\t\t<physicsMaterial2D>\n\t\t</physicsMaterial2D>\n\t\t<node>\n\t\t\t<0
+      playMode=\"0\" layer=\"0\" next=\"1\" nodeLayer=\"0\" >\n\t\t\t\t<_bool waitBetween=\"True\"
+      setNormalizedTime=\"False\" active=\"True\" executeOnStop=\"False\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 285 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.Nodes.PlayMecanimAnimationNode]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<usedObject
+      type=\"3\" actorID=\"0\" prefabID=\"0\" prefabID2=\"-1\" >\n\t\t\t\t\t<_bool
+      selectedOnlyGameObjects=\"False\" useRoot=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</usedObject>\n\t\t\t\t<timeBetweenValue
+      mathType=\"0\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</timeBetweenValue>\n\t\t\t\t<transitionDurationValue
+      mathType=\"0\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_float
+      value=\"0.1\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</transitionDurationValue>\n\t\t\t\t<normalizedTimeValue
+      mathType=\"0\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</normalizedTimeValue>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<parameter>\n\t\t\t\t\t\t<0
+      type=\"3\" >\n\t\t\t\t\t\t\t<_bool bToggle=\"False\" add=\"False\" resetTrigger=\"False\"
+      />\n\t\t\t\t\t\t\t<name>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicString_ValueType]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[Die]]></value>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicString_ValueType]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</name>\n\t\t\t\t\t\t\t<bVal>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicBool_ValueType]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_bool
+      value=\"False\" />\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicBool_ValueType]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</bVal>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</parameter>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1
+      soundTypeID=\"0\" next=\"2\" nodeLayer=\"0\" >\n\t\t\t\t<_bool waitBetween=\"True\"
+      useSoundType=\"False\" wait=\"False\" active=\"True\" executeOnStop=\"False\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      532 57 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.Nodes.PlaySoundNode]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<usedObject
+      type=\"3\" actorID=\"0\" prefabID=\"0\" prefabID2=\"-1\" >\n\t\t\t\t\t<_bool
+      selectedOnlyGameObjects=\"False\" useRoot=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</usedObject>\n\t\t\t\t<timeBetweenValue
+      mathType=\"0\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</timeBetweenValue>\n\t\t\t\t<audioClip
+      clipID=\"0\" >\n\t\t\t\t\t<_audioclip clip=\"0\" />\n\t\t\t\t</audioClip>\n\t\t\t\t<audio
+      rolloff=\"1\" >\n\t\t\t\t\t<_float volume=\"1\" minDistance=\"0\" maxDistance=\"100\"
+      pitch=\"1\" pitch2=\"1\" spatialBlend=\"0\" panStereo=\"0\" />\n\t\t\t\t\t<_bool
+      oneShot=\"True\" setVolume=\"False\" setOutputMixerGroup=\"False\" setDistance=\"False\"
+      setPitch=\"False\" randomPitch=\"False\" setSpatialBlend=\"False\" setPanStereo=\"False\"
+      setLoop=\"False\" loop=\"False\" setIgnoreLV=\"False\" ignoreLV=\"False\" />\n\t\t\t\t</audio>\n\t\t\t</1>\n\t\t\t<2
+      next=\"3\" nodeLayer=\"0\" >\n\t\t\t\t<_bool random=\"False\" active=\"True\"
+      executeOnStop=\"False\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      38 152 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.Nodes.WaitNode]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
+      mathType=\"0\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_float
+      value=\"1\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</time>\n\t\t\t</2>\n\t\t\t<3
+      next=\"-1\" nodeLayer=\"0\" >\n\t\t\t\t<_bool active=\"True\" executeOnStop=\"False\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      285 152 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.Nodes.ShowDialogueNode]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
+      type=\"1\" guiBoxID=\"2\" actorID=\"0\" portraitType=\"0\" cancelNext=\"-1\"
+      >\n\t\t\t\t\t<_float updateInterval=\"1\" time=\"0\" />\n\t\t\t\t\t<_bool waitClose=\"True\"
+      useUpdate=\"False\" useSpeaker=\"False\" atActorPosition=\"False\" speakerName=\"False\"
+      speakerPortrait=\"False\" ownPortraitPosition=\"False\" useTitle=\"False\" useAudio=\"False\"
+      stopAudio=\"True\" onSpeaker=\"False\" allowCancel=\"False\" repeatChoiceConditionChecks=\"False\"
+      storeSelection=\"False\" blockAccept=\"False\" afterAudio=\"False\" wait=\"False\"
+      />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[Game
+      Over]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t<defaultSelection
+      mathType=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></_type>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</settings>\n\t\t\t\t\t</defaultSelection>\n\t\t\t\t\t<headerTexts>\n\t\t\t\t\t\t<_bool
+      useHeaders=\"False\" setIconSize=\"False\" />\n\t\t\t\t\t</headerTexts>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<choiceOption>\n\t\t\t\t\t\t\t<0
+      next=\"4\" >\n\t\t\t\t\t\t\t\t<_bool showInactive=\"False\" useCondition=\"False\"
+      />\n\t\t\t\t\t\t\t\t<customSkin>\n\t\t\t\t\t\t\t\t\t<_bool useCustomSkin=\"False\"
+      setIconSize=\"False\" />\n\t\t\t\t\t\t\t\t</customSkin>\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<content>\n\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t<_bool
+      addInfo=\"False\" addTitle=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Restart]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t<infoText><![CDATA[]]></infoText>\n\t\t\t\t\t\t\t\t\t\t\t\t<titleText><![CDATA[]]></titleText>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</content>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</choiceOption>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</dialogue>\n\t\t\t</3>\n\t\t\t<4
+      origin=\"0\" next=\"5\" nodeLayer=\"0\" >\n\t\t\t\t<_bool useFadeOut=\"True\"
+      wait=\"False\" useFadeIn=\"True\" active=\"True\" executeOnStop=\"False\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 532 152 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.Nodes.LoadSceneNode]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<fadeOut
+      interpolation=\"0\" >\n\t\t\t\t\t<_float time=\"0.5\" />\n\t\t\t\t\t<_bool alpha=\"True\"
+      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<startColor
+      0 0 0 0 />\n\t\t\t\t\t\t<endColor 0 0 0 1 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</fadeOut>\n\t\t\t\t<fadeIn
+      interpolation=\"0\" >\n\t\t\t\t\t<_float time=\"0.5\" />\n\t\t\t\t\t<_bool alpha=\"True\"
+      red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<startColor
+      0 0 0 1 />\n\t\t\t\t\t\t<endColor 0 0 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</fadeIn>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<target>\n\t\t\t\t\t\t<0
+      loadType=\"0\" positionType=\"0\" >\n\t\t\t\t\t\t\t<_bool reloadScene=\"True\"
+      />\n\t\t\t\t\t\t\t<sceneName>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicString_ValueType]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicString_ValueType]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</sceneName>\n\t\t\t\t\t\t\t<spawnID
+      mathType=\"0\" >\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</spawnID>\n\t\t\t\t\t\t\t<scale>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicVector3_ValueType]]></type>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t<value
+      1 1 1 />\n\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicVector3_ValueType]]></_type>\n\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t</scale>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</target>\n\t\t\t\t</_subarrays>\n\t\t\t</4>\n\t\t\t<5
+      next=\"-1\" nodeLayer=\"0\" >\n\t\t\t\t<_bool active=\"True\" executeOnStop=\"False\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      532 247 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.Nodes.ChangeVariablesNode]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<change>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<variable>\n\t\t\t\t\t\t\t<0
+      changeType=\"0\" templateID=\"0\" >\n\t\t\t\t\t\t\t\t<variable removeType=\"0\"
+      type=\"2\" axisType=\"0\" stringOperator=\"0\" floatOperator=\"7\" vector3Operator=\"2\"
+      >\n\t\t\t\t\t\t\t\t\t<_bool remove=\"False\" normalize=\"False\" />\n\t\t\t\t\t\t\t\t\t<variable
+      origin=\"1\" objectScope=\"1\" listChange=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t<key>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicString_ValueType]]></type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<value><![CDATA[score]]></value>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicString_ValueType]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t\t</key>\n\t\t\t\t\t\t\t\t\t</variable>\n\t\t\t\t\t\t\t\t\t<floatValue
+      mathType=\"0\" >\n\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></type>\n\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t<settings>\n\t\t\t\t\t\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</settings>\n\t\t\t\t\t\t\t\t\t</floatValue>\n\t\t\t\t\t\t\t\t</variable>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</variable>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</change>\n\t\t\t</5>\n\t\t</node>\n\t</_subarrays>\n</schematic>\n"
+    lookUp:
+      textures: []
+      audioClips:
+      - {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
+      audioMixers: []
+      audioMixerGroups: []
+      gameObjects: []
+      guiSkins: []
+      materials: []
+      physicMaterials: []
+      physicMaterials2D: []
+      sprites: []
+      fonts: []
+      schematicAssets: []
+      generalAssets: []
+    encrypted: 0

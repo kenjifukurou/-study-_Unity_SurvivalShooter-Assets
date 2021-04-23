@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -137269416, guid: 7aed481bc8d8bee448bf2ae245d7762c, type: 3}
+  m_Name: Finished CameraFollow
+  m_EditorClassIdentifier: 
+  time: 8/8/2017 10:28:17 AM
+  version: 1.9.0
+  data:
+    name: schematic
+    xmlData: "<schematic maxNodes=\"100\" startIndex=\"0\" stopIndex=\"-1\" endIndex=\"-1\"
+      nodeLayer=\"0\" >\n\t<_bool limitNodes=\"False\" blockPlayer=\"False\" blockCamera=\"False\"
+      clearBlocks=\"False\" mainCamera=\"True\" cameraTag=\"False\" clearActors=\"True\"
+      clearPrefabs=\"True\" clearVariables=\"False\" clearSelectedData=\"False\" useUnityTimeScale=\"True\"
+      useMakinomTimeScale=\"True\" initVarsEachRun=\"False\" destroyPrefabs=\"False\"
+      useEndSlots=\"False\" overrideNodeName=\"False\" />\n\t<_floatarrays>\n\t\t<nodePosition
+      38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_stringarrays>\n\t\t<layer>\n\t\t\t<0><![CDATA[Base
+      Layer]]></0>\n\t\t</layer>\n\t</_stringarrays>\n\t<initialVariables>\n\t\t<_subarrays>\n\t\t\t<variable>\n\t\t\t</variable>\n\t\t</_subarrays>\n\t</initialVariables>\n\t<_subarrays>\n\t\t<machineStartVariable>\n\t\t</machineStartVariable>\n\t\t<actor>\n\t\t</actor>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<audioMixer>\n\t\t</audioMixer>\n\t\t<audioMixerGroup>\n\t\t</audioMixerGroup>\n\t\t<sprite>\n\t\t</sprite>\n\t\t<texture>\n\t\t</texture>\n\t\t<material>\n\t\t</material>\n\t\t<physicMaterial>\n\t\t</physicMaterial>\n\t\t<physicsMaterial2D>\n\t\t</physicsMaterial2D>\n\t\t<node>\n\t\t\t<0
+      next=\"-1\" nodeLayer=\"0\" >\n\t\t\t\t<_bool followXPosition=\"True\" followYPosition=\"True\"
+      followZPosition=\"True\" smoothRotation=\"False\" followXRotation=\"False\"
+      followYRotation=\"False\" followZRotation=\"False\" active=\"True\" executeOnStop=\"False\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      285 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.Nodes.SmoothFollowNode]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<usedObject
+      type=\"3\" actorID=\"0\" prefabID=\"0\" prefabID2=\"-1\" >\n\t\t\t\t\t<_bool
+      selectedOnlyGameObjects=\"False\" useRoot=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</usedObject>\n\t\t\t\t<usedObject2
+      type=\"2\" actorID=\"0\" prefabID=\"0\" prefabID2=\"-1\" >\n\t\t\t\t\t<_bool
+      selectedOnlyGameObjects=\"False\" useRoot=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t</usedObject2>\n\t\t\t\t<smoothing
+      mathType=\"0\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_float
+      value=\"0.3\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</smoothing>\n\t\t\t\t<positionOffset>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicVector3_ValueType]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t<value
+      1 15 -22 />\n\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicVector3_ValueType]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</positionOffset>\n\t\t\t\t<xRotation
+      mathType=\"0\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</xRotation>\n\t\t\t\t<yRotation
+      mathType=\"0\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</yRotation>\n\t\t\t\t<zRotation
+      mathType=\"0\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></type>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<settings>\n\t\t\t\t\t\t<_float
+      value=\"0\" />\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<_type><![CDATA[Makinom.Schematics.SchematicFloat_ValueType]]></_type>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</settings>\n\t\t\t\t</zRotation>\n\t\t\t</0>\n\t\t</node>\n\t</_subarrays>\n</schematic>\n"
+    lookUp:
+      textures: []
+      audioClips: []
+      audioMixers: []
+      audioMixerGroups: []
+      gameObjects: []
+      guiSkins: []
+      materials: []
+      physicMaterials: []
+      physicMaterials2D: []
+      sprites: []
+      fonts: []
+      schematicAssets: []
+      generalAssets: []
+    encrypted: 0
