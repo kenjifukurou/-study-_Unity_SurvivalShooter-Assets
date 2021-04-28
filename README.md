@@ -1,2 +1,2 @@
 # -study-_Unity_SurvivalShooter-Assets
-Survival Shooter Resources download from non-Unity website
+Survival Shooter Assets download from non-Unity website
